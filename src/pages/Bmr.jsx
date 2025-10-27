@@ -91,7 +91,7 @@ function Bmr() { // เริ่มต้นการกำหนด Functional 
     <> 
       <div className="border-b-gray-300 shadow-2xl shadow-black/100 rounded-3xl w-8/12 mx-auto h-min">
         <DtiHeader title2="BMR Calculation" aa2="คำนวณ BMR" detail2={bmr} />
-        <div className="w-11/12 mx-auto p-8 rounded-xl flex flex-col"> //
+        <div className="w-11/12 mx-auto p-8 rounded-xl flex flex-col"> 
           
           {/* ป้อนน้ำหนัก (กิโลกรัม) */}
           <label>ป้อนน้ำหนัก (กิโลกรัม)</label>
@@ -168,6 +168,7 @@ function Bmr() { // เริ่มต้นการกำหนด Functional 
           </div>
 
           <div className="text-center mt-5 text-2xl"> 
+             ค่า BMR ที่คำนวณได้
             <span className="mx-5  text-blue-700 font-bold"> 
               {bmrValue}
             </span>
